@@ -28,7 +28,7 @@ class Scanner {
     tokens.add(new Token(EOF, "", null, line));
     return tokens;
   }
-  
+   
   // Method that originally takes in single char tokens.
   private void scanToken() {
     char c = advance();
